@@ -42,7 +42,7 @@
           cp -pr --reflink=auto dist $out/
           runHook postInstall
         '';
-        npmDepsHash = "sha256-uYm7YQP28ZDVEL5UMh2hyoOYGZwqCfrkoS12DajiRas=";
+        npmDepsHash = "sha256-ROsi5knJoIDMGjIo5/Ks45dDtldU6guTG7GNcVIqUZg=";
       };
     });
   };
